@@ -7,9 +7,8 @@ export default defineConfig({
     port: 3001,
     host: true
   },
-  // ВАЖНО: Укажи правильный base path для GitHub Pages
-  base: '/nft-web-app/',
   build: {
-    outDir: 'docs'
-  }
+    outDir: 'docs'  // Для GitHub Pages
+  },
+  base: '/nft-ecosystem-minimal/'  // Замени на имя своего репозитория
 })
